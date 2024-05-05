@@ -1,0 +1,16 @@
+git clone followed by the URL you copied in the last step. 
+The full command should look similar to git 
+clone git@github.com:USER-NAME/REPOSITORY-NAME.git. 
+
+
+To test this, you can cd into the new git_test 
+folder that was downloaded and then enter git remote -v. git remote -v output, which is the name of your remote connection. The name “origin” is both the default and the convention for the remote repository. 
+
+touch hello_world.txt
+
+ype git status in your terminal. In the output, notice that your hello_world.txt file is shown in red, which means that this file is not staged.
+Type git add hello_world.txt.
+
+git commit -m "Add hello_world.txt"
+git log - You should see an entry for your “Add hello_world.txt” commit. You will also see details on the author who made the commit and the date and time of when the commit was made. If your terminal is stuck in a screen with (END) at the bottom, just press “q” to escape. You can configure settings for this later, but don’t worry about it too much for now.
+
